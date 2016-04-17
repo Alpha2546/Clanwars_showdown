@@ -1,0 +1,30 @@
+{
+  "context": "client",
+  "identifier": "com.exodusesports.cMaps_Showdown2016",
+  "display_name": "Clanwars Showdown 2016 mappack",
+  "description": "The map pool for the Clan Wars Showdown 2016",
+  "author": "eXodus eSports",
+  "version": "1.0",
+  "build": "89775",
+  "date": "2016/04/17",
+  "signature": "not yet implemented",
+  "forum": "https://forums.uberent.com/threads/new-clan-wars.70643/page-13",
+  "icon": "http://i.imgur.com/StFxV8F.png",
+  "category": [
+	  "map",
+	  "pack",
+	  "maps",
+	  "system",
+	  "planets",
+	  "planet",
+	  "systems"
+    ],
+    "load_planet": [
+        "coui://ui/mods/clanwars_showdown/maplist.js"
+    ],
+	"priority": 100,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ]
+}
